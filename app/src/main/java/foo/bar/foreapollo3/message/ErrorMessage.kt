@@ -10,7 +10,6 @@ import foo.bar.foreapollo3.R
  * If you want to display it to the user you can put it inside a dialog (it implements
  * parcelable). #localisedMessage provides human readable text.
  */
-@ExperimentalStdlibApi
 enum class ErrorMessage constructor(private val messageResId: Int) : Parcelable {
 
     ERROR_MISC(R.string.msg_error_misc),
@@ -21,13 +20,7 @@ enum class ErrorMessage constructor(private val messageResId: Int) : Parcelable 
     ERROR_CLIENT(R.string.msg_error_client),
     ERROR_RATE_LIMITED(R.string.msg_rate_limited),
     ERROR_SESSION_TIMED_OUT(R.string.msg_error_session_timeout),
-    ERROR_BUSY(R.string.msg_error_busy),
-    ERROR_CANCELLED(R.string.msg_error_cancelled),
-    ERROR_NO_LAUNCH(R.string.msg_error_no_launch),
-
-    ERROR_BLANK_EMAIL(R.string.msg_error_blank_email),
-    LAUNCH_SERVICE_SAYS_NO_ERROR(R.string.msg_error_launch_server_says_no),
-    INTERNAL_SERVER_ERROR(R.string.msg_error_launch_internal_server);
+    ERROR_BUSY(R.string.msg_error_busy);
 
     val localisedMessage: String by lazy {
         getString(messageResId)

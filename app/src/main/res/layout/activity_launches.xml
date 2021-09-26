@@ -21,18 +21,10 @@
             android:paddingBottom="5dp"
             android:textSize="15sp"
             android:textColor="@color/colorAccent"
-            android:text="Launch Fetcher (Apollo)" />
-
-        <TextView
-            android:id="@+id/launch_session_txt"
-            android:layout_width="wrap_content"
-            android:layout_height="20dp"
-            android:textSize="12sp"
-            android:textColor="@color/colorAccent"
-            android:text="session token:" />
+            android:text="Launch Fetcher (Apollo3)" />
 
         <ProgressBar
-            android:id="@+id/launch_authbusy_progbar"
+            android:id="@+id/launch_smallbusy_progbar"
             android:layout_width="wrap_content"
             android:layout_height="20dp"/>
 
@@ -77,19 +69,6 @@
                     android:layout_height="wrap_content"
                     android:paddingBottom="20dp"/>
             </LinearLayout>
-
-            <TextView
-                android:id="@+id/launch_booked_txt"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="booked:"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentBottom="true"
-                android:textColor="@color/colorAccent"/>
-
         </RelativeLayout>
 
         <Button
@@ -98,41 +77,6 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="fetch random launch" />
-
-        <Button
-            android:id="@+id/launch_login_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="login" />
-
-        <Button
-            android:id="@+id/launch_logout_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="logout" />
-
-        <Button
-            android:id="@+id/launch_chain_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="login > refresh launch > toggle booked (chained)" />
-
-        <!--Button
-            android:id="@+id/fruit_fetchfailbasic_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="fetch - (fail result basic)" />
-
-        <Button
-            android:id="@+id/fruit_fetchfailadvanced_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="fetch - (fail result advanced)" /-->
 
     </LinearLayout>
 

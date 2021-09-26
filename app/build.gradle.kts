@@ -48,10 +48,10 @@ repositories {
 
 dependencies {
 
-    implementation("com.apollographql.apollo3:apollo-runtime:3.0.0-alpha03")
+    implementation("com.apollographql.apollo3:apollo-runtime:3.0.0-alpha06")
 
-    implementation("co.early.fore:fore-kt-android-network:1.5.0")
-    implementation("io.coil-kt:coil:1.1.0")
-    implementation("androidx.appcompat:appcompat:1.1.0")
-    implementation("androidx.constraintlayout:constraintlayout:1.1.3")
+    implementation("co.early.fore:fore-kt-android:1.5.0-alpha02")
+    implementation("io.coil-kt:coil:1.2.1")
+    implementation("androidx.appcompat:appcompat:1.3.1")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.1")
 }

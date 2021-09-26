@@ -1,4 +1,4 @@
-query LaunchList {
+query Launches {
  launches {
   cursor
   hasMore
