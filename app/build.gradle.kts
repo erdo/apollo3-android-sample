@@ -2,7 +2,7 @@
 plugins {
     id("com.android.application")
     id("idea")
-    id("com.apollographql.apollo3").version("3.0.0-alpha06")
+    id("com.apollographql.apollo3").version("3.0.0-alpha07")
     kotlin("android")
     kotlin("android.extensions")
     kotlin("kapt")
@@ -41,16 +41,11 @@ apollo {
 // creating graphql queries:
 // https://www.youtube.com/watch?v=omSpI1Nu_pg
 
-repositories {
-    mavenCentral()
-    google()
-}
-
 dependencies {
 
-    implementation("com.apollographql.apollo3:apollo-runtime:3.0.0-alpha06")
+    implementation("com.apollographql.apollo3:apollo-runtime:3.0.0-alpha07")
 
-    implementation("co.early.fore:fore-kt-android:1.5.0-alpha02")
+    implementation("co.early.fore:fore-kt-android:1.5.1")
     implementation("io.coil-kt:coil:1.2.1")
     implementation("androidx.appcompat:appcompat:1.3.1")
     implementation("androidx.constraintlayout:constraintlayout:2.1.1")

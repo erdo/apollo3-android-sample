@@ -1,7 +1,6 @@
 package foo.bar.foreapollo3.api
 
 import com.apollographql.apollo3.ApolloClient
-import com.apollographql.apollo3.network.http.DefaultHttpEngine
 import com.apollographql.apollo3.network.http.HttpNetworkTransport
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient

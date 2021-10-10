@@ -3,8 +3,6 @@ package foo.bar.foreapollo3
 import android.app.Application
 import co.early.fore.kt.core.delegate.DebugDelegateDefault
 import co.early.fore.kt.core.delegate.ForeDelegateHolder
-import co.early.fore.kt.core.logging.AndroidLogger
-import co.early.fore.kt.core.logging.SilentLogger
 import co.early.fore.kt.net.InterceptorLogging
 import co.early.fore.kt.net.apollo3.CallProcessorApollo3
 import foo.bar.foreapollo3.api.CustomApolloBuilder
@@ -42,7 +40,7 @@ object OG {
         )//logging interceptor should be the last one
 
         val callProcessor = CallProcessorApollo3(
-            globalErrorHandler = CustomGlobalErrorHandler(logger),
+            errorHandler = CustomGlobalErrorHandler(logger),
             logger = logger
         )
 

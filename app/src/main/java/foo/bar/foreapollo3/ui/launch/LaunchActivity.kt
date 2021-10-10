@@ -4,7 +4,7 @@ import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.FragmentActivity
 import co.early.fore.core.ui.SyncableView
-import co.early.fore.kt.core.ui.ForeLifecycleObserver
+import co.early.fore.kt.core.ui.LifecycleObserver
 import co.early.fore.kt.core.ui.showOrGone
 import co.early.fore.kt.core.ui.showOrInvisible
 import co.early.fore.kt.core.ui.trigger.TriggerOnChange
@@ -31,7 +31,7 @@ class LaunchActivity : FragmentActivity(R.layout.activity_launches), SyncableVie
         setupButtonClickListeners()
         setupTriggers()
 
-        lifecycle.addObserver(ForeLifecycleObserver(this, launchesModel))
+        lifecycle.addObserver(LifecycleObserver(this, launchesModel))
     }
 
     private fun setupButtonClickListeners() {
