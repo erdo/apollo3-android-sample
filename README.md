@@ -1,8 +1,9 @@
-# WIP Android Apollo3 GraphQL sample
+# Android: Apollo3 and GraphQL
 
-git repo for the android **Apollo3** post [dev.to tutorial](https://dev.to/erdo/)
+![header image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zhv4t1hzqypoopetmvc5.png)
 
-![apollo3 app screenshot](https://thepracticaldev.s3.amazonaws.com/i/eox7auhypfsnx0j18pgl.gif)
+git repo for the android **Apollo3** [dev.to post](https://dev.to/erdo/apollo3-and-graphql-2m04)
+
 
 
 ## License

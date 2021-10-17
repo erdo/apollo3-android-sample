@@ -2,7 +2,7 @@ package foo.bar.foreapollo3
 
 import android.app.Application
 import co.early.fore.kt.core.delegate.DebugDelegateDefault
-import co.early.fore.kt.core.delegate.ForeDelegateHolder
+import co.early.fore.kt.core.delegate.Fore
 import co.early.fore.kt.net.InterceptorLogging
 import co.early.fore.kt.net.apollo3.CallProcessorApollo3
 import foo.bar.foreapollo3.api.CustomApolloBuilder
@@ -29,8 +29,8 @@ object OG {
     fun setApplication(application: Application) {
 
         // create dependency graph
-        if (BuildConfig.DEBUG) { ForeDelegateHolder.setDelegate(DebugDelegateDefault("fore_")) }
-        val logger = ForeDelegateHolder.getLogger()
+        if (BuildConfig.DEBUG) { Fore.setDelegate(DebugDelegateDefault("fore_")) }
+        val logger = Fore.getLogger()
 
         // networking classes common to all models
         val globalRequestInterceptor = CustomGlobalRequestInterceptor()
