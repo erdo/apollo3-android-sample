@@ -2,7 +2,7 @@
 
 ![header image](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zhv4t1hzqypoopetmvc5.png)
 
-git repo for the android **Apollo3** [dev.to post](https://dev.to/erdo/apollo3-and-graphql-2m04)
+git repo for the android **Apollo3** [dev.to post](https://dev.to/erdo/android-apollo3-and-graphql-1e8m)
 
 
 
