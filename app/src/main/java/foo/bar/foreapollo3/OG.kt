@@ -47,7 +47,7 @@ object OG {
         // models
         val launchesModel = LaunchesModel(
             launchService = LaunchService(
-                getLaunches = { apolloClient.query(LaunchesQuery()) }
+                getLaunches = { apolloClient.query(LaunchesQuery()).execute() }
             ),
             callProcessor,
             logger

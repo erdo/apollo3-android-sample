@@ -2,7 +2,7 @@
 plugins {
     id("com.android.application")
     id("idea")
-    id("com.apollographql.apollo3").version("3.0.0-beta01")
+    id("com.apollographql.apollo3").version("3.0.0-beta03")
     kotlin("android")
     kotlin("android.extensions")
     kotlin("kapt")
@@ -43,9 +43,9 @@ apollo {
 
 dependencies {
 
-    implementation("com.apollographql.apollo3:apollo-runtime:3.0.0-beta01")
+    implementation("com.apollographql.apollo3:apollo-runtime:3.0.0-beta03")
 
-    implementation("co.early.fore:fore-kt-android:1.5.2")
+    implementation("co.early.fore:fore-kt-android:1.5.3")
     implementation("io.coil-kt:coil:1.2.1")
     implementation("androidx.appcompat:appcompat:1.3.1")
     implementation("androidx.constraintlayout:constraintlayout:2.1.1")
