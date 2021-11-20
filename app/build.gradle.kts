@@ -45,7 +45,7 @@ dependencies {
 
     implementation("com.apollographql.apollo3:apollo-runtime:3.0.0-beta03")
 
-    implementation("co.early.fore:fore-kt-android:1.5.3")
+    implementation("co.early.fore:fore-kt-android:1.5.4")
     implementation("io.coil-kt:coil:1.2.1")
     implementation("androidx.appcompat:appcompat:1.3.1")
     implementation("androidx.constraintlayout:constraintlayout:2.1.1")
