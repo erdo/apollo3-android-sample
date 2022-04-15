@@ -24,7 +24,7 @@ class CustomGlobalRequestInterceptor : Interceptor {
             "fore-example-user-agent-" + BuildConfig.VERSION_NAME
         )
 
-        requestBuilder.method(original.method(), original.body())
+        requestBuilder.method(original.method, original.body)
 
         return chain.proceed(requestBuilder.build())
     }
